@@ -1,0 +1,9 @@
+###
+# GITATTRIBUTES CONFIGURATION FILE
+###
+
+###
+# MAVEN FILES CONFIGURATION
+###
+/mvnw text eol=lf
+*.cmd t ext eol=crlf

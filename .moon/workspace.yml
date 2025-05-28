@@ -1,0 +1,16 @@
+###
+# MOON TOOLCHAIN CONFIGURATION FILE
+###
+
+$schema: 'https://moonrepo.dev/schemas/workspace.json'
+
+vcs:
+  manager: git
+  defaultBranch: master
+
+projects:
+  - groove-stash-api
+  - groove-stash-ui
+
+constraints:
+  enforceProjectTypeRelationships: false

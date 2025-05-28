@@ -1,0 +1,18 @@
+###
+# GITIGNORE CONFIGURATION FILE
+###
+
+###
+# MOON FILES CONFIGURATION
+###
+.moon/cache
+.moon/docker
+
+###
+# NODE FILES CONFIGURATION
+###
+node_modules
+
+# moon
+.moon/cache
+.moon/docker

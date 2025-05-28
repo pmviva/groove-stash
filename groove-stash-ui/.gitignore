@@ -1,0 +1,24 @@
+###
+# GITIGNORE CONFIGURATION FILE
+###
+
+###
+# DIST FILES CONFIGURATION
+###
+coverage
+dist
+node_modules
+
+###
+# IDE FILES CONFIGURATION
+###
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+###
+# LOCAL FILES CONFIGURATION
+###
+.DS_Store
+*.local
+*.log*

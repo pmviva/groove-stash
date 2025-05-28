@@ -1,0 +1,33 @@
+###
+# MOON PROJECT CONFIGURATION FILE
+###
+
+$schema: 'https://moonrepo.dev/schemas/project.json'
+
+id: groove-stash-ui
+language: typescript
+type: application
+stack: frontend
+
+dependsOn:
+  - groove-stash-api
+
+tasks:
+  lint:
+    command: 'npm run check'
+    toolchain: system
+  format:
+    command: 'npm run format'
+    toolchain: system
+  clean:
+    command: 'rm -rf dist'
+    toolchain: system
+  dev:
+    command: 'npm run dev'
+    toolchain: system
+  build:
+    command: 'npm run build'
+    toolchain: system
+  test:
+    command: 'npm run test'
+    toolchain: system

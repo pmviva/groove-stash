@@ -1,0 +1,30 @@
+###
+# MOON PROJECT CONFIGURATION FILE
+###
+
+$schema: 'https://moonrepo.dev/schemas/project.json'
+
+id: groove-stash-api
+language: java
+type: application
+stack: backend
+
+tasks:
+  lint:
+    command: './mvnw spotbugs:check && ./mvnw spotless:check'
+    toolchain: system
+  format:
+    command: './mvnw spotless:apply'
+    toolchain: system
+  clean:
+    command: './mvnw clean'
+    toolchain: system
+  dev:
+    command: './mvnw spring-boot:run'
+    toolchain: system
+  build:
+    command: './mvnw install'
+    toolchain: system
+  test:
+    command: './mvnw test'
+    toolchain: system

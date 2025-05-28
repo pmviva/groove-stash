@@ -1,0 +1,9 @@
+###
+# EDITORCONFIG CONFIGURATION FILE
+###
+
+###
+# CONFIGURES THE ALL FILES SECTION
+###
+[*]
+  indent_size              = 4

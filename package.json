@@ -1,0 +1,27 @@
+{
+  "name": "groove-stash",
+  "version": "0.0.1",
+  "description": "GrooveStash is your personal music practice companion — organize your pieces, build setlists, and track your growth as a musician. Designed for creative flow, powered by a solid Java & Spring Boot backend and a React + TypeScript frontend.",
+  "homepage": "https://github.com/pmviva/groove-stash#readme",
+  "bugs": {
+    "url": "https://github.com/pmviva/groove-stash/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmviva/groove-stash.git"
+  },
+  "license": "MIT",
+  "author": "Pablo Martin Viva",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "lefthook": "^1.11.13"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

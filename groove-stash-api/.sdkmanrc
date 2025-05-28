@@ -1,0 +1,8 @@
+###
+# SDKMAN CONFIGURATION FILE
+###
+
+###
+# CONFIGURES THE JAVA SDK
+###
+java = 24.0.1-tem

@@ -1,0 +1,14 @@
+###
+# COMPOSE CONFIGURATION FILE
+###
+
+services:
+    postgres:
+        image: postgres:17.4
+        container_name: postgres
+        environment:
+            POSTGRES_DB: groove-stash
+            POSTGRES_PASSWORD: groove-stash-password
+            POSTGRES_USER: groove-stash-user
+        ports:
+            - 5432:5432
