@@ -1,7 +1,12 @@
 ###
 # LEFTHOOK CONFIGURATION FILE
 ###
-
+pre-commit:
+  commands:
+    lint:
+      run: moon run :lint
+    format:
+      run: moon run :format
 prepare-commit-msg:
   commands:
     commit-message-generate:
