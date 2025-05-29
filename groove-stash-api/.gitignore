@@ -10,7 +10,7 @@ HELP.md
 ###
 # IDEA FILES CONFIGURATION
 ###
-.idea
+.idea/*
 !.idea/copyright
 *.iml
 *.ipr
